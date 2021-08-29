@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frontline.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="main">
+            <div class="right">
+                <div class="middle">
+                  <button onclick="justplay()" id="play"><i class="fab fa-napster" aria-hidden="true"></i></button>
+              </div> 
+             <div class="duration">
+                <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+             </div>
+           </div>
+       </div> 
+
+        <img src="/logopro.png" class="boy">
+        <h2>Front line everythings changes now</h2><br>
+        <p>И вот, с соизволения Дхритараштры, все братья, быки среди куру, вме¬сте с Кешавой направились к Гандхари.
+           Но безупречная Гандхари, терзае¬мая скорбью о сыновьях, узнав Царя Справедливости — Юдхиштхиру, ис¬требившего своих недругов, пожелала предать его проклятию. 
+           Святой муд¬рец, сын Сатьявати, почуял злой умысел ее в отношении Пандавов и за¬благовременно до конца его разгадал. Совершив возлияние благоуханной, чистой водою Ганги, 
+           величайший святой, двигающийся со скоростью мысли, прибыл в тот край. Видящий «чудесным оком» и познающий без усилия разумом душевное состояние всех, в ком есть дыхание, 
+           он (сразу) понял все происходящее. И в должный час здравомыслящий обладатель великого по¬движнического пыла молвил своей снохе: «(Ныне,) упуская случай для проклятий, 
+           (люди) используют (всякий) случай к миру. Не должно гневаться на Пандаву, о Гандхари, исполнись миролюбия. Ведь надлежит обуздывать страсти. И послушай, что я еще скажу. 
+           На протяжении восемнадцати дней твой сын, жаждущий победы, все говорил тебе: „Мать, я сражаюсь с врагами - благослови меня!" И на эти просьбы стремящегося к победе (героя) 
+           ты, о Гандхари, каждый раз отвечала: „Где дхарма — там и победа!" Я не при¬помню в прошлом такого, о Гандхари, чтобы сказанное тобою оказалось ложным, ибо (каждое слово) 
+           ты изрекаешь после сосредоточенного обдумыва¬ния. Теперь же, вспомнив о дхарме и о собственных словах, о многомудрая, обуздай гнев, 
+           он тебе не к лицу, правдоречивая Гандхари!
+           Я не осуждаю Пандавов, о владыка, и не желаю их смерти; просто серд¬це мое от скорби по сыновьям чересчур взволновалось. 
+           Как Кунти заботится о Пандавах — так и мне следует (о них) заботиться; как Дхритараштра о них печется — так надлежит и мне. 
+           Погибель роду Куру пришла из-за преступ¬лений, совершенных Дурьодханой, Шакуни, сыном Субалы, Карной и Духшасаной. 
+           А Бибхатсу и сын Притхи — Врикодара, так же как Накула с Сахадевой и Юдхиштхира ни в чем не повинны. 
+           Ведь потомки Куру устроили междоусобную сечу и все в ней друг друга перебили; за это я не гневаюсь (на Пандавов). 
+           Но что совершил Бхима с ведома Васудевы! Он, великий духом, вызвал Дурьодхану на битву палицами и, зная, насколько тот искусней его, что не раз было доказано в битве, 
+           (Бхима) нанес ему удар ниже пупа — вот от¬чего я гневаюсь! Как смеют герои даже во спасение жизни на поле брани 
+           пре¬небрегать дхармой, которую заповедали великие духом праведники!»
+           Я видел пустоту этого мира.И вот, с соизволения Дхритараштры, все братья, быки среди куру, вме¬сте с Кешавой направились к Гандхари.
+           Но безупречная Гандхари, терзае¬мая скорбью о сыновьях, узнав Царя Справедливости — Юдхиштхиру, ис¬требившего своих недругов, пожелала предать его проклятию. 
+           Святой муд¬рец, сын Сатьявати, почуял злой умысел ее в отношении Пандавов и за¬благовременно до конца его разгадал. Совершив возлияние благоуханной, чистой водою Ганги, 
+           величайший святой, двигающийся со скоростью мысли, прибыл в тот край. Видящий «чудесным оком» и познающий без усилия разумом душевное состояние всех, в ком есть дыхание, 
+           он (сразу) понял все происходящее. И в должный час здравомыслящий обладатель великого по¬движнического пыла молвил своей снохе: «(Ныне,) упуская случай для проклятий, 
+           (люди) используют (всякий) случай к миру. Не должно гневаться на Пандаву, о Гандхари, исполнись миролюбия. Ведь надлежит обуздывать страсти. И послушай, что я еще скажу. 
+           На протяжении восемнадцати дней твой сын, жаждущий победы, все говорил тебе: „Мать, я сражаюсь с врагами - благослови меня!" И на эти просьбы стремящегося к победе (героя) 
+           ты, о Гандхари, каждый раз отвечала: „Где дхарма — там и победа!" Я не при¬помню в прошлом такого, о Гандхари, чтобы сказанное тобою оказалось ложным, ибо (каждое слово) 
+           ты изрекаешь после сосредоточенного обдумыва¬ния. Теперь же, вспомнив о дхарме и о собственных словах, о многомудрая, обуздай гнев, 
+           он тебе не к лицу, правдоречивая Гандхари!
+           Я не осуждаю Пандавов, о владыка, и не желаю их смерти; просто серд¬це мое от скорби по сыновьям чересчур взволновалось. 
+           Как Кунти заботится о Пандавах — так и мне следует (о них) заботиться; как Дхритараштра о них печется — так надлежит и мне. 
+           Погибель роду Куру пришла из-за преступ¬лений, совершенных Дурьодханой, Шакуни, сыном Субалы, Карной и Духшасаной. 
+           А Бибхатсу и сын Притхи — Врикодара, так же как Накула с Сахадевой и Юдхиштхира ни в чем не повинны. 
+           Ведь потомки Куру устроили междоусобную сечу и все в ней друг друга перебили; за это я не гневаюсь (на Пандавов). 
+           Но что совершил Бхима с ведома Васудевы! Он, великий духом, вызвал Дурьодхану на битву палицами и, зная, насколько тот искусней его, что не раз было доказано в битве, 
+           (Бхима) нанес ему удар ниже пупа — вот от¬чего я гневаюсь! Как смеют герои даже во спасение жизни на поле брани 
+           пре¬небрегать дхармой, которую заповедали великие духом праведники!»
+           Я видел пустоту этого мира.
+        </p>
+        
+    </section>
+    
+    
+    <script>
+        let previous = document.querySelector('#pre');
+    let play = document.querySelector('#play');
+    let next = document.querySelector('#next');
+    let title = document.querySelector('#title');
+    let recent_volume= document.querySelector('#volume');
+    let volume_show = document.querySelector('#volume_show');
+    let slider = document.querySelector('#duration_slider');
+    let show_duration = document.querySelector('#show_duration');
+    let track_image = document.querySelector('#track_image');
+    let auto_play = document.querySelector('#auto');
+    let present = document.querySelector('#present');
+    let total = document.querySelector('#total');
+    let artist = document.querySelector('#artist');
+    
+    
+    
+    let timer;
+    let autoplay = 0;
+    
+    let index_no = 0;
+    let Playing_song = false;
+    
+    //create a audio Element
+    let track = document.createElement('audio');
+    
+    
+    //All songs list
+    let All_song = [
+       {
+         name: "Danderous Love 2016",
+         path: "/kardash LUDWIG sell.mp3",
+         img: "https://lh3.googleusercontent.com/proxy/WHc9dFlpsHeilMUYgL9NncEW3ITIBnV_QDW9QwJd1z9PuBEo9xecVK2It1_G66SJRODgM09D-MCpTJDodLv3ta9m8QiJteHd1PcMVBCF06D05T2KNsyfdE8g_Dw",
+         singer: "Sashk Only"
+       }
+      
+       
+    ];
+    
+    
+    // All functions
+    
+    
+    // function load the track
+    function load_track(index_no){
+        clearInterval(timer);
+        reset_slider();
+    
+        track.src = All_song[index_no].path;
+        title.innerHTML = All_song[index_no].name;	
+        track_image.src = All_song[index_no].img;
+        artist.innerHTML = All_song[index_no].singer;
+        track.load();
+    
+        timer = setInterval(range_slider ,1000);
+        total.innerHTML = All_song.length;
+        present.innerHTML = index_no + 1;
+    }
+    
+    load_track(index_no);
+    
+    
+    //mute sound function
+    function mute_sound(){
+        track.volume = 0;
+        volume.value = 0;
+        volume_show.innerHTML = 0;
+    }
+    
+    
+    // checking.. the song is playing or not
+     function justplay(){
+         if(Playing_song==false){
+             playsong();
+    
+         }else{
+             pausesong();
+         }
+     }
+    
+    
+    // reset song slider
+     function reset_slider(){
+         slider.value = 0;
+     }
+    
+    // play song
+    function playsong(){
+      track.play();
+      Playing_song = true;
+      play.innerHTML = '<i class="fa fa-pause" aria-hidden="true"></i>';
+    }
+    
+    //pause song
+    function pausesong(){
+        track.pause();
+        Playing_song = false;
+        play.innerHTML = '<i class="fab fa-napster" aria-hidden="true"></i>';
+    }
+    
+    
+    // next song
+    function next_song(){
+        if(index_no < All_song.length - 1){
+            index_no += 1;
+            load_track(index_no);
+            playsong();
+        }else{
+            index_no = 0;
+            load_track(index_no);
+            playsong();
+    
+        }
+    }
+    
+    
+    // previous song
+    function previous_song(){
+        if(index_no > 0){
+            index_no -= 1;
+            load_track(index_no);
+            playsong();
+    
+        }else{
+            index_no = All_song.length;
+            load_track(index_no);
+            playsong();
+        }
+    }
+    
+    
+    // change volume
+    function volume_change(){
+        volume_show.innerHTML = recent_volume.value;
+        track.volume = recent_volume.value / 100;
+    }
+    
+    // change slider position 
+    function change_duration(){
+        slider_position = track.duration * (slider.value / 100);
+        track.currentTime = slider_position;
+    }
+    
+    // autoplay function
+    function autoplay_switch(){
+        if (autoplay==1){
+           autoplay = 0;
+           auto_play.style.background = "rgba(255,255,255,0.2)";
+        }else{
+           autoplay = 1;
+           auto_play.style.background = "#148F77";
+        }
+    }
+    
+    
+    function range_slider(){
+        let position = 0;
+            
+            // update slider position
+            if(!isNaN(track.duration)){
+               position = track.currentTime * (100 / track.duration);
+               slider.value =  position;
+              }
+    
+           
+           // function will run when the song is over
+           if(track.ended){
+                play.innerHTML = '<i class="fab fa-napster" aria-hidden="true"></i>';
+               if(autoplay==1){
+                   index_no += 1;
+                   load_track(index_no);
+                   playsong();
+               }
+            }
+         }
+      </script>
+</body>
+</html>
