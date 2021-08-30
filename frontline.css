@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+	
 }
 section
 {
@@ -74,10 +75,12 @@ section p
     position: relative;
 	padding: 130px 130px;
 	
+	
 }
 
 /* both range slider part */
-input[type="range"] {
+input[type="range"] 
+{
 	-webkit-appearance: none;
 	width: 50%;
 	outline: none;
@@ -86,16 +89,20 @@ input[type="range"] {
 	overflow: hidden;
 	border-radius: 10px;
 }
+
 input[type="range"]::-webkit-slider-thumb{
 	-webkit-appearance: none;
 	height: 10px;
 	width: 10px;
-	background: #0051ff77;
+	background: #0152ff77;
 	cursor: pointer;
 	box-shadow: -415px 0 0 400px #00000096;
+	
+	
 }
 .right input[type=range]{
 	width: 40%;
+	
 }
 /* right part */
 .right{
@@ -109,6 +116,7 @@ input[type="range"]::-webkit-slider-thumb{
     shape-margin: 20px;
     margin-right: 20px;
     transition: 1s;
+	
     
 }
  .right .middle{
@@ -116,6 +124,7 @@ input[type="range"]::-webkit-slider-thumb{
     display: flex;
 	align-items: center;
 	justify-content: center;
+
 }
 .right .middle button{
 	border: none;
@@ -130,11 +139,12 @@ input[type="range"]::-webkit-slider-thumb{
 	transition: 0.5s;
 	background: #232427;
 	transform-style: preserve-3d;
-    transform: perspective(2000px);
+    transform: perspective(250px);
 	box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
 	 inset -5px -5px 15px rgba(255, 255, 255, 0.171),
 	 5px 5px 15px rgba(0,0,0,0.3),
 	 -5px -5px 10px rgba(255, 255, 255, 0.164);
+	 
 	 
 
 }
@@ -148,24 +158,29 @@ input[type="range"]::-webkit-slider-thumb{
 	width: 80%;
 	background-color: #111;
 	
+	
 /*	border: 1px solid #fff;*/
 }
 .duration input[type="range"] {
 	flex: 1;
 	background-color: #475466;
 	cursor: pointer;
+	
 }
 
 #play{
-	background: #00000034 ;
-	
+	background: #00000000 ;
 }
+
 
 .right i:before{
 	
 	color: rgba(255, 255, 255, 0.411);
 	font-size: 250px;
-	margin-left: 20px;
+	margin-left: 50px;
+
+	
+	
 
 }
 .show_song_no{
@@ -193,7 +208,7 @@ input[type="range"]::-webkit-slider-thumb{
 .bi-play
 {
 	transition: 1s;
-	transform: rotateY(-35deg);
+	transform: rotateY(45deg);
 	
 	
 }
@@ -202,12 +217,15 @@ input[type="range"]::-webkit-slider-thumb{
  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
   animation: neon2 1.5s ease-in-out infinite alternate;
-  transform: rotateY(0deg);
+  transform: rotateY(0deg)  translateX(-10px);
   
 }
 .fa-pause
 {
 	transition: 1s;
+	transform: scale(0.5);
+	margin-left: -27px;
+	
 	
 }
 .fa-pause:hover
@@ -216,6 +234,7 @@ input[type="range"]::-webkit-slider-thumb{
   -moz-animation: neon3 1.5s ease-in-out infinite alternate;
   animation: neon3 1.5s ease-in-out infinite alternate;
   transform: rotate(0deg);
+  transform: scale(0.5);
 }
 
 
