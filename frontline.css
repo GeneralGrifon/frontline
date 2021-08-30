@@ -164,7 +164,8 @@ input[type="range"]::-webkit-slider-thumb{
 .right i:before{
 	
 	color: rgba(255, 255, 255, 0.411);
-	font-size: 120px;
+	font-size: 250px;
+	margin-left: 20px;
 
 }
 .show_song_no{
@@ -192,7 +193,8 @@ input[type="range"]::-webkit-slider-thumb{
 .bi-play
 {
 	transition: 1s;
-	transform: scale(2.5) translate(6px);
+	transform: rotateY(-35deg);
+	
 	
 }
 .bi-play:hover
@@ -200,12 +202,13 @@ input[type="range"]::-webkit-slider-thumb{
  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
   animation: neon2 1.5s ease-in-out infinite alternate;
-  transform: scale(2.5) translate(6px);
-  transform: rotateY(55deg);
+  transform: rotateY(0deg);
+  
 }
 .fa-pause
 {
 	transition: 1s;
+	
 }
 .fa-pause:hover
 {
