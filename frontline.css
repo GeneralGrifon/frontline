@@ -62,7 +62,7 @@ section p
     transition: 1s;
 	margin-right: -40px;
     margin-left: 30px;
-	-web-ki-shape-margin: 30px;
+	-webkit-shape-margin: 30px;
     shape-margin: 30px;
     transform-style: preserve-3d;
     transform: perspective(2000px);
