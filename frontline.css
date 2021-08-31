@@ -345,14 +345,14 @@ input[type="range"]::-webkit-slider-thumb{
 	{
 	bottom: 10px;
 	float: right;
-	margin-right: -70px;
+	margin-right: -90px;
 	margin-top: 0px;
 	padding: 3px;
     }
 
 	.boy
 	{
-		margin-top: 500px;
+		margin-top: 400px;
 		margin-right: -50px;
 		shape-margin: 20px;
 		height: 60%;
@@ -364,7 +364,7 @@ input[type="range"]::-webkit-slider-thumb{
 		font-size: 2.2em;
 		margin-left: -25px;
 		margin-top: -20px;
-		padding-right: 50px;
+		padding-right: 120px;
 	}
 	section p
 	{
