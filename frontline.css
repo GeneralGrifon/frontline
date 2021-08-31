@@ -58,7 +58,7 @@ section p
 	height: 38%;
 	width: 38%;
     float: right;
-    shape-outside: url(/logopro.png);
+    shape-outside: url(logopro.png);
     transition: 1s;
     margin-right: -40px;
     margin-left: 30px;
