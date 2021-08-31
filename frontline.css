@@ -328,7 +328,7 @@ input[type="range"]::-webkit-slider-thumb{
 
 	.right .duration
 	{
-        width: 300%;
+        width: 250%;
 		transform: translateX(50px);
 		margin-right: 90px;
 		margin-top: 20px;
