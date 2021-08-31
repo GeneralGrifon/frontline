@@ -38,7 +38,7 @@ section p
 {
     height: 500px;
     float: left;
-    shape-outside: url(/babo2.png);
+    shape-outside: url(babo2.png);
     shape-margin: 30px;
     margin-right: 30px;
     transition: 1s;
@@ -60,9 +60,9 @@ section p
     float: right;
     shape-outside: url(/logopro.png);
     transition: 1s;
-	margin-right: -40px;
+    margin-right: -40px;
     margin-left: 30px;
-	-webkit-shape-margin: 30px;
+    -webkit-shape-margin: 30px;
     shape-margin: 30px;
     transform-style: preserve-3d;
     transform: perspective(2000px);
